@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Group 12 Team Meeting Minutes </title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <h1> Group 12 Meeting Minutes </h1>
+      <nav>
+        <a href="#attendance">Attendance</a> |
+        <a href="#comments">Comments</a>
+      </nav>
+    </header>
+    <main>
+      <div>
+      <section id="attendance">
+        <h2>Attendance</h2>
+        <ul>
+          <li>Nimai</li>
+          <li>Fabio</li>
+          <li>Evan</li>
+          <li>Ryan</li>
+      
+
+        </ul>
+      </section>
+      <section id="agenda">
+        <h2>Meeting Main Agenda</h2>
+        <ol>
+          <li>Assign tasks to every team member</li>
+          <li>Come up with team name</li>
+          <li>Make sure video gets published</li>
+        </ol>
+      </section>
+    </div>
+      <section id = "unfinished">
+        <h3>Unfinished Business</h3>
+        <p>We have to still figure out <b>team colors</b> and we have to discuss who is working on the <strong>web design</strong>.</p>
+      </section>
+      <section id = "new">
+        <h2>New Business</h2>
+        <p>Come up with a template for the <i>backend</i>. We must also <em>decide</em> who will present findings to the TA.</p>
+      </section>
+      <section id="comments">
+        <h2>Comments / Questions</h2>
+        <p>Should we have <span>2 meetings a week</span> instead of one for better communication?</p>
+        <p>Team Members:<br>Nimai<br>Fabio<br>Evan<br>Ryan</p>
+      </section>
+
+      <details>
+        <summary>Additional Items of Discussion</summary>
+        <ul>
+          <li>Should we split into partners for a part of this project</li>
+          <li>What are ideas for better teamwork</li>
+          <li>Do we want to have snacks for next meeting</li>
+        </ul>
+      </details>
+
+      <hr>
+
+      <section>
+        <h2>Whiteboard Diagram</h2>
+        <img src="whiteboard.jpg" alt="Whiteboard drawing of a design idea from meeting" width="500">
+      </section>
+
+      <section>
+        <h2>Meeting Recording and Meeting Audio</h2>
+        <audio controls>
+          <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+        <br>
+        <video width="320" height="240" controls>
+          <source src="video.mp4" type="video/mp4">
+        </video>
+      </section>
+
+      <section id = "feedbackform">
+        <h2>Form for Meeting Feedback</h2>
+
+        <form>
+          <fieldset>
+            <legend>Feedback</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+    
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date"><br><br>
+
+            <p>Was the meeting helpful?</p>
+            <input type="radio" id="yes" name="helpful" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="helpful" value="no">
+            <label for="no">No</label><br><br>
+
+            <p>What parts of the meeting did you enjoy the most?</p>
+            <input type="checkbox" id="tasks" name="topics" value="tasks">
+            <label for="tasks">Web Design Groups</label>
+            <input type="checkbox" id="ideas" name="topics" value="ideas">
+            <label for="ideas">Icebreakers</label><br><br>
+
+            <label for="feedback-comments">Comments/Concerns:</label><br>
+            <textarea id="feedback-comments" name="comments" rows="2" cols="30"></textarea><br><br>
+
+
+            <label for="suggestions-input">Suggestions for Future Meetings:</label>
+            <input list="suggestions" id="suggestions-input" name="suggestion">
+            <datalist id="suggestions">
+                <option value="Shorter meeting times">
+                <option value="Less meetings">
+                <option value="Send slides out before">
+                <option value="Fewer people/only required people">
+            </datalist><br><br>
+
+            <label for="color">Pick a team color:</label>
+            <select id="color" name="color">
+                <option value="brown">Brown</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="orange">Orange</option>
+            </select>
+            <br>
+            <button type="submit">Submit Form</button>
+          </fieldset>
+        </form>
+      </section>
+
+    </main>
+  </body>
+</html>
