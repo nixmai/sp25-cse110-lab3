@@ -1,0 +1,35 @@
+/* CSS Variable with fallback */
+:root {
+    --main-accent: color-mix(in srgb, rgb(97, 124, 246) 60%, red);
+  }
+  
+  body {
+    background-color: var(--main-accent, #ffdd57); /* fallback = yellow color */
+  }
+  
+  /* Examples of color formats */
+  h2 {
+    color: rgb(30, 144, 255); /* Blue */
+  }
+  
+  p {
+    color: #4B0082; /* Indigo */
+  }
+  
+  ul li {
+    color: hsl(340, 100%, 79%);
+  }
+  
+  footer {
+    color: orange; /* named color */
+  }
+  
+  
+  section#new {
+    background-color: rgba(100, 149, 237, 0.2); /* light blue */
+  }
+
+  section#feedbackform {
+    background-color: color(display-p3 0.3 0.8 0.5 / 0.2); /* light green */
+  }
+  
