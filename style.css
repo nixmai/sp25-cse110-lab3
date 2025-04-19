@@ -32,4 +32,18 @@
   section#feedbackform {
     background-color: color(display-p3 0.3 0.8 0.5 / 0.2); /* light green */
   }
+
+  /* Relative Units */
+main {
+    padding: 2em;            /* relative to font-size */
+    width: 80%;              /* percent of parent width */
+    margin-top: 10vh;        /* 10% of viewport height */
+  }
+  
+  /* Absolute Units */
+  img {
+    width: 500px;            /* pixel */
+    border: 1pt solid black; /* points */
+    margin-bottom: 2cm;      /* centimeters */
+  }
   
