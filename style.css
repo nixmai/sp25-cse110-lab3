@@ -122,3 +122,22 @@ nav a:hover {
     color: crimson;
     text-decoration: underline;
 }
+
+/* Flexbox Layout */
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+    padding: 1em;
+    list-style: none;
+}
+
+#agenda ol {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    background-color: #fefefe;
+    padding: 1em;
+}
