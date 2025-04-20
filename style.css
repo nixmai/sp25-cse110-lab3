@@ -109,3 +109,16 @@ section#feedbackform::after {
     right: 10px;
     font-size: 1.5rem;
 }
+
+/* Hover: when mouse hovers over a button */
+button:hover {
+    background-color: #ffeaa7;
+    color: black;
+    cursor: pointer;
+}
+
+/* Hover over nav links */
+nav a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
