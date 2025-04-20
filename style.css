@@ -84,9 +84,13 @@ nav {
 
 /* Block display */
 #new {
-   display: block;
+
+    display: block;
 }
 
-
-
-
+/* Explicit height and min/max width */
+section#unfinished {
+    height: 300px;
+    min-width: 250px;
+    max-width: 90%;
+  }
