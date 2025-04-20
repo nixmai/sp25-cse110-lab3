@@ -4,6 +4,9 @@
 
 ## Standup - April 19, 2025
 
+**Meeting Type:**  
+Daily individual standup
+
 **What I did yesterday**  
 - Finished mirroring Lab 2 repo to Lab 3  
 - Set up GitHub Pages and README
@@ -27,3 +30,10 @@
 
 **Any blockers?**  
 -  
+
+
+## Goals and Progress
+
+## Important Topics
+
+## Action Items 
