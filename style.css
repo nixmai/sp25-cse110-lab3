@@ -75,3 +75,18 @@ section#agenda {
     text-decoration: line-through;
   }
 
+/* New inline block */
+nav {
+   display: inline-block;
+   background-color: #e0e0e0;
+   padding: 10px;
+}
+
+/* Block display */
+#new {
+   display: block;
+}
+
+
+
+
