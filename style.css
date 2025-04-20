@@ -70,3 +70,8 @@ section#agenda {
   border-radius: 12px;
 }
 
+/* Strike through item in agenda list*/
+#agenda li {
+    text-decoration: line-through;
+  }
+
