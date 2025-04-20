@@ -33,7 +33,7 @@
     background-color: color(display-p3 0.3 0.8 0.5 / 0.2); /* light green */
   }
 
-  /* Relative Units */
+/* Relative Units */
 main {
     padding: 2em;            /* relative to font-size */
     width: 80%;              /* percent of parent width */
@@ -46,4 +46,27 @@ main {
     border: 1pt solid black; /* points */
     margin-bottom: 2cm;      /* centimeters */
   }
+
+/* Shorthand margin + padding */
+section#unfinished {
+    margin: 20px 40px;              /* top/bottom: 20px, left/right: 40px */
+    padding: 1em 2em;               /* relative units for padding */
+    border: 3px solid #999;
+  }
   
+section#agenda {
+   margin-top: 10px;
+   margin-bottom: 15px;
+   margin-left: auto;
+   margin-right: auto;
+  
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: dashed;
+  border-width: 2pt;
+  border-color: rgb(250, 100, 50);
+  border-radius: 12px;
+}
+
