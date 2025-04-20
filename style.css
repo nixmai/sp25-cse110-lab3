@@ -172,3 +172,61 @@ ul {
       height: auto;
     }
 }
+
+
+/* CSS Selectors */
+
+* {
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    background-color: #f3f4f6;
+    border: 1px solid #ccc;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+div p {
+    font-style: italic;
+}
+
+section > h2 {
+    border-bottom: 2px solid #ccc;
+}
+
+h2 ~ p {
+    color: red;
+}
+
+h2 + p {
+    font-size: 1.9em;
+}
+
+button.primary {
+    background-color: #00b894;
+}
+
+form:has(input[type="date"]) {
+    border: 2px dashed purple;
+}
+
+section#new {
+    color: #333;
+  
+    &:hover {
+      background-color: #e0f7fa;
+    }
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
